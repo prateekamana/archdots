@@ -1,0 +1,128 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "spacing": 4,
+    "margin-top": 6,
+    "margin-left": 5,
+    "margin-right": 5,
+
+    "modules-left": ["clock"/*, "custom/wallpaper", "custom/lightmode"*/],
+    "modules-center": ["hyprland/workspaces"/*"custom/active_workspace", "custom/active_toplevel"*/],
+    "modules-right": [/*"backlight/slider", "custom/externalip",*/ "network", "pulseaudio", "battery"],
+    "custom/active_workspace": {
+        "exec": "~/.scripts/active_workspace.sh",
+        "format": "Workspace {}", 
+        "interval": 1,
+        "tooltip": false
+    },
+    "hyprland/workspaces": {
+	"format": "{icon}",
+	"format-icons": {
+		"1": "",
+		"2": "󰨞",
+		"3": "",
+		"4": "󰠮",
+		"5": "",
+		"6": "",
+		"7": " ",
+		"8": "󱗎",
+		"9": "",
+		//"active": "",
+		//"default": ""
+	},
+       "persistent-workspaces": {
+             "*": 6, // 5 workspaces by default on every monitor
+             //"HDMI-A-1": 3 // but only three on HDMI-A-1
+       }
+    },
+    "custom/active_toplevel": {
+        "exec": "~/.scripts/active_toplevel.sh",
+        "format": "{}", 
+        "interval": 1,
+        "tooltip": false
+    },
+
+    "cpu": {
+        "format": "󰻠 {usage}%",
+        "on-click": "alacritty -e btop &",
+        "interval": 1
+    },
+
+    "clock": {
+        "format": " {:%H:%M}",
+        "format-alt": " {:%a, %d. %b  %H:%M}",
+        "tooltip": false
+    },
+
+
+
+
+    "network": {
+        "interface": "wlan0",
+        "format": "{ifname}",
+        "format-alt": "{ipaddr}",
+        "format-wifi": "{essid}  ",
+        "format-ethernet": "{ifname} ",
+        "format-disconnected": "", //An empty format will hide the module.
+        "format-disconnected": "",
+        "tooltip-format": "{ifname}",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+        "tooltip-format-ethernet": "{ifname} ",
+        "max-length": 50
+        //"on-click": "/home/danihek/tmp/iwdrof/iwdrof.sh"
+    },
+
+    "custom/lightmode": {
+        "format": " ",
+        "format-alt": " ",
+        "tooltip": false,
+        "on-click": "wallset toggle"
+    },
+
+
+    "memory": {
+        "on-click": "alacritty -e btop &",
+        "format": "  {}%",
+        "interval": 1
+
+    },
+
+    "battery": {
+        "format": "  {capacity}%",
+        "format-charging": "⚡ {capacity}%",
+        "format-plugged": " {capacity}%"
+
+    },
+
+    "pulseaudio": {
+        "format": "   {volume}%",
+        "format-muted": "  Muted"
+    },
+    
+    "custom/wallpaper":{
+	    "format": "󰸉",
+        "tooltip": false,
+	    "on-click": "wallset"
+    },
+
+    "custom/power":{
+	    "format": "⏻",
+        "tooltip": false,
+	    "on-click": "wlogout"
+    },
+
+    "backlight/slider": {
+             "min": 0,
+             "max": 100,
+             "orientation": "horizontal",
+             "device": "nvidia_0"
+     },
+    "custom/externalip": {
+        "format": "{}",
+        "exec": "curl -s ifconfig.me",
+        "interval": 300,  // Check every 5 minutes (300 seconds)
+        "tooltip": false
+    }
+}
+

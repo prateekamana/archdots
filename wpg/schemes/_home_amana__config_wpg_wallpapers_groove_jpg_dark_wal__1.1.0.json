@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/amana/.config/wpg/wallpapers/groove.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0f0f0e",
+        "foreground": "#f2ead3",
+        "cursor": "#f2ead3"
+    },
+    "colors": {
+        "color0": "#0f0f0e",
+        "color1": "#7E946D",
+        "color2": "#87986D",
+        "color3": "#A2A770",
+        "color4": "#CF9E61",
+        "color5": "#BBBC83",
+        "color6": "#D6CC96",
+        "color7": "#f2ead3",
+        "color8": "#a9a393",
+        "color9": "#7E946D",
+        "color10": "#87986D",
+        "color11": "#A2A770",
+        "color12": "#CF9E61",
+        "color13": "#BBBC83",
+        "color14": "#D6CC96",
+        "color15": "#f2ead3"
+    }
+}

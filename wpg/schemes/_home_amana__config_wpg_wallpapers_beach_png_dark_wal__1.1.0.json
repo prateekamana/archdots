@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/amana/.config/wpg/wallpapers/beach.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1c1c1c",
+        "foreground": "#c8c8c8",
+        "cursor": "#c8c8c8"
+    },
+    "colors": {
+        "color0": "#1c1c1c",
+        "color1": "#525252",
+        "color2": "#4E4E4E",
+        "color3": "#454545",
+        "color4": "#4A4A4A",
+        "color5": "#424242",
+        "color6": "#3C3C3C",
+        "color7": "#070707",
+        "color8": "#888888",
+        "color9": "#472b2b",
+        "color10": "#442929",
+        "color11": "#3c2424",
+        "color12": "#402727",
+        "color13": "#392222",
+        "color14": "#341f1f",
+        "color15": "#c8c8c8"
+    }
+}

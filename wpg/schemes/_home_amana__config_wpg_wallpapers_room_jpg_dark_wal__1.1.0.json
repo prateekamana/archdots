@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/amana/.config/wpg/wallpapers/room.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1d1d1d",
+        "foreground": "#c3c3c3",
+        "cursor": "#c3c3c3"
+    },
+    "colors": {
+        "color0": "#1d1d1d",
+        "color1": "#545047",
+        "color2": "#D59F6A",
+        "color3": "#907054",
+        "color4": "#79876B",
+        "color5": "#8F8D74",
+        "color6": "#6C6758",
+        "color7": "#0d0c0c",
+        "color8": "#acafa5",
+        "color9": "#483d24",
+        "color10": "#b06f2e",
+        "color11": "#784d27",
+        "color12": "#547336",
+        "color13": "#7a753a",
+        "color14": "#5c502c",
+        "color15": "#c3c3c3"
+    }
+}

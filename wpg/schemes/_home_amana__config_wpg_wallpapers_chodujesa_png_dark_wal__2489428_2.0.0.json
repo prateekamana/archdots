@@ -1,0 +1,29 @@
+{
+    "checksum": "d35276b4be838d3f824a2ad75fd11775",
+    "wallpaper": "/home/amana/.config/wpg/wallpapers/chodujesa.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0D0B0C",
+        "foreground": "#c2c2c2",
+        "cursor": "#c2c2c2"
+    },
+    "colors": {
+        "color0": "#0D0B0C",
+        "color1": "#B12239",
+        "color2": "#BF465B",
+        "color3": "#CB7886",
+        "color4": "#A59D9E",
+        "color5": "#D79EA7",
+        "color6": "#DBD8D9",
+        "color7": "#c2c2c2",
+        "color8": "#6a566a",
+        "color9": "#B12239",
+        "color10": "#BF465B",
+        "color11": "#CB7886",
+        "color12": "#A59D9E",
+        "color13": "#D79EA7",
+        "color14": "#DBD8D9",
+        "color15": "#c2c2c2"
+    }
+}

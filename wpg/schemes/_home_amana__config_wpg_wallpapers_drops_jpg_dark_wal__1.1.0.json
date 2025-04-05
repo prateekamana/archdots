@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/amana/.config/wpg/wallpapers/drops.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#030D0B",
+        "foreground": "#dfeae6",
+        "cursor": "#dfeae6"
+    },
+    "colors": {
+        "color0": "#030D0B",
+        "color1": "#66827D",
+        "color2": "#577B84",
+        "color3": "#6C9095",
+        "color4": "#90AFAC",
+        "color5": "#A8C3BC",
+        "color6": "#B0CFCC",
+        "color7": "#dfeae6",
+        "color8": "#9ca3a1",
+        "color9": "#66827D",
+        "color10": "#577B84",
+        "color11": "#6C9095",
+        "color12": "#90AFAC",
+        "color13": "#A8C3BC",
+        "color14": "#B0CFCC",
+        "color15": "#dfeae6"
+    }
+}

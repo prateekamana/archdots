@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/amana/.config/wpg/wallpapers/machines.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1b1e1d",
+        "foreground": "#ceddcd",
+        "cursor": "#ceddcd"
+    },
+    "colors": {
+        "color0": "#1b1e1d",
+        "color1": "#6E9491",
+        "color2": "#79A098",
+        "color3": "#84AA9D",
+        "color4": "#93B9A5",
+        "color5": "#A6B3A3",
+        "color6": "#9DC1A9",
+        "color7": "#ceddcd",
+        "color8": "#909a8f",
+        "color9": "#6E9491",
+        "color10": "#79A098",
+        "color11": "#84AA9D",
+        "color12": "#93B9A5",
+        "color13": "#A6B3A3",
+        "color14": "#9DC1A9",
+        "color15": "#ceddcd"
+    }
+}
