@@ -7,7 +7,7 @@
     "margin-left": 5,
     "margin-right": 5,
 
-    "modules-left": ["clock"/*, "custom/wallpaper", "custom/lightmode"*/],
+    "modules-left": [ "clock", "custom/spotify"/*,"custom/wallpaper", "custom/lightmode"*/],
     "modules-center": ["hyprland/workspaces"/*"custom/active_workspace", "custom/active_toplevel"*/],
     "modules-right": [/*"backlight/slider", "custom/externalip",*/ "network", "pulseaudio", "battery"],
     "custom/active_workspace": {
@@ -15,6 +15,27 @@
         "format": "Workspace {}", 
         "interval": 1,
         "tooltip": false
+    },
+    "custom/media": {
+        "format": "{icon} {text}",
+        "return-type": "json",
+        "max-length": 40,
+        "format-icons": {
+            "spotify": "",
+            "default": "🎜"
+        },
+        "escape": true,
+        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    },
+    
+    "custom/spotify": {
+	    "exec": "/usr/bin/python3 /home/amana/.config/waybar/mediaplayer.py --player spotify",
+	    "format": "{} ",
+	    "return-type": "json",
+	    "on-click": "playerctl play-pause",
+	    "on-scroll-up": "playerctl next",
+	    "on-scroll-down": "playerctl previous"
     },
     "hyprland/workspaces": {
 	"format": "{icon}",
